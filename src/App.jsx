@@ -16,9 +16,9 @@ import Contact from './components/contact/Contact.jsx'
 
 function App() {
  let router= createBrowserRouter([
-  {path:"" , element: <Layout /> , children:[
-    {index: true , element:<StartFrameWork />},
-    { path: "/StartFrameWork", element: <StartFrameWork /> },
+  {path:"/Framework-React-" , element: <Layout /> , children:[
+    {index:true, element:<StartFrameWork />},
+    { path: "StartFrameWork", element: <StartFrameWork /> },
     { path: '*', element: <ErrorPage/>},
     {path:"about" , element: <About/>},
     {path:'portfolio' , element: <Portfolio/>},
