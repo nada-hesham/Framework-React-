@@ -1,0 +1,265 @@
+:root{
+  --font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+/* navbar style */
+.bg-Navbar {
+  background-color: #2c3e50 ;
+  position: fixed;
+ padding: 10px;
+  top:0;
+  left: 0;
+  right: 0;
+  font-family: var(--font-family);
+  z-index: 999999;
+
+}
+.font-navbar{
+  color:white !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  font-family: var(--font-family);
+}
+.font-h2{
+  color:white ;
+  font-size: 37px ;
+  font-weight: 700 ;
+  font-family: var(--font-family);
+  text-align: center;
+  
+}
+.ul-navbar{
+color:white ;
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;
+font-family: var(--font-family);
+}
+.active{
+  width: inherit;
+  height: inherit;
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+  color: white;
+  border-radius: 8px;
+}
+/* start framework style */
+.bg-home{
+  background-color: #1abc9c;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  padding: 10px;
+  font-family: var(--font-family);
+}
+.under-line-left{
+  width:80px;
+  height: 5px;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  left:40%;
+  margin-top:10px ;
+
+}
+.under-line-right{
+  width:80px;
+  height: 5px;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  left:54%;
+  margin-top:10px ;
+
+}
+.star-center{
+  position: absolute;
+  left:49%;
+  font-size: 20px;
+  
+}
+.p-font{
+  font-family: var(--font-family);
+  color: white;
+  font-weight: 400;
+ text-align: center;
+ font-size: 18px;
+ 
+}
+/* error page style */
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	 animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.notFound{
+  background-color: #1abc9c;
+}
+.error{
+  color: white;
+  font-size: 37px ;
+  font-weight: 700 ;
+  font-family: var(--font-family);
+  text-align: center;
+
+}
+/* footer style */
+.footer-bg{
+background-color: #2c3e50;
+text-align: center;
+font-family: var(--font-family);
+color:white;
+flex-direction: column;
+}
+.h-footer{
+  font-size: 28px;
+  font-weight: 500;
+}
+.icons{
+  border: 1px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.footer{
+  background-color: #1a252f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+/* portfolio style */
+.h1-portfolio{
+  font-family: var(--font-family);
+  font-size: 37px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+.line-left{
+  width:80px;
+  height: 5px;
+  border: 1px solid #2c3e50;
+  background-color: #2c3e50;
+  position: absolute;
+  left:30%;
+  margin-top:10px ;
+
+}
+.line-right{
+  width:80px;
+  height: 5px;
+  border: 1px solid #2c3e50;
+  background-color: #2c3e50;
+  position: absolute;
+  left:57%;
+  margin-top:10px ;
+
+}
+.star-center-portfolio{
+  position: absolute;
+  left:49%;
+  font-size: 20px;
+  color: #2c3e50;
+}
+.col-img{
+  overflow: hidden ;
+  text-align: center;
+ 
+}
+.img{
+width:100%;
+
+}
+.layer{
+  position: absolute;
+  background-color: #1abc9cc2;
+  opacity: 0;
+  transform: 0.5s opacity;
+ 
+}
+.col-img:hover .layer{
+  opacity:1;
+}
+/* background-color: #c2dbfec0; */
+
+/* contact style */
+.line{
+  width:80px;
+  height: 5px;
+  border: 1px solid #2c3e50;
+  background-color: #2c3e50;
+  position: absolute;
+  left:25%;
+  margin-top:10px ;
+}
+.input-w{
+  width:50%;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid transparent;
+ border-radius: 7px;
+
+}
+input.form-controal:focus{
+  border-color: transparent ;
+  outline: 0;
+  
+ 
+}
+label{
+  color: #1abc9c;
+  margin-bottom: 7px;
+  /* transition: .6s top , 0.6s opacity; */
+  opacity: 0;
+  left: 300px;
+  /* top: -10px; */
+  top: 12px;
+  position: absolute;
+  transition: 0.3s all ease; 
+ 
+}
+
+.input-w:focus + label,
+.input-w:not(:placeholder-shown) + label {
+  top: -10px;
+  opacity: 1;
+
+}
+.btn-send{
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  width:150px;
+  border-radius: 10px;
+  position: relative;
+  left:-18%
+}
+
+
+
